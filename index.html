@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">DOM Manipulation Demo</h1>
+    </header>
+
+    <main>
+        <section class="interactive-section">
+            <h2>Interactive Controls</h2>
+            
+            <div class="control-group">
+                <button id="change-text-btn">Change Heading Text</button>
+                <button id="change-color-btn">Toggle Background Color</button>
+                <button id="add-element-btn">Add New Item</button>
+                <button id="remove-element-btn">Remove Last Item</button>
+            </div>
+
+            <div class="content-box">
+                <p id="dynamic-text">This text will change when you click the button.</p>
+                <ul id="item-list">
+                    <li>Initial item 1</li>
+                    <li>Initial item 2</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>User Input</h2>
+            <form id="user-form">
+                <div class="form-group">
+                    <label for="user-input">Enter some text:</label>
+                    <input type="text" id="user-input" placeholder="Type something...">
+                </div>
+                <button type="submit">Update Content</button>
+            </form>
+            <div id="output-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>JavaScript DOM Manipulation Practice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
